@@ -536,8 +536,7 @@
         <div class="brand-mark" style="margin-top:4px; color: var(--ink-light);">Confidential</div>
       </div>
       <div class="doc-ref">
-        Form v3.0<br>
-        @lkdn.lok<br>
+        @lkdnfitness<br>
         Sydney, AU
       </div>
     </div>
@@ -650,7 +649,7 @@
           <option>Yes — Oura Ring</option>
           <option>No</option>
         </select>
-        <div class="field-hint">Helps Lok manage training load with precision</div>
+        <div class="field-hint">Helps LKDN manage training load with precision</div>
       </div>
       <div class="field-group">
         <label class="field-label">Body composition goal</label>
@@ -1212,7 +1211,7 @@
       <label class="field-label">Medical acknowledgement <span class="req">*</span></label>
       <div class="ack-box" id="ack-medical" onclick="toggleAck(this,'ack_medical')">
         <input type="checkbox" name="ack_medical" value="agreed">
-        <div class="ack-text">I acknowledge I have no medical reason preventing participation in high-intensity exercise, OR I have cleared participation with a qualified medical professional and disclosed all relevant conditions above. I will notify Lok immediately if any new symptoms or diagnoses arise during the program.</div>
+        <div class="ack-text">I acknowledge I have no medical reason preventing participation in high-intensity exercise, OR I have cleared participation with a qualified medical professional and disclosed all relevant conditions above. I will notify LKDN immediately if any new symptoms or diagnoses arise during the program.</div>
       </div>
     </div>
   </section>
@@ -1430,7 +1429,7 @@
     </div>
 
     <div class="field-group" style="margin-bottom:24px">
-      <label class="field-label">Are any sessions with Lok in-person? <span class="req">*</span></label>
+      <label class="field-label">Are any sessions with LKDN in-person? <span class="req">*</span></label>
       <div class="radio-grid radio-grid-2" style="margin-bottom:12px">
         <label class="radio-option" onclick="selectRadio(this,'in_person'); document.getElementById('in-person-detail').classList.add('show')">
           <input type="radio" name="in_person" value="yes"><span class="radio-label">Yes — some sessions in-person</span>
@@ -1480,7 +1479,7 @@
     </div>
 
     <div class="field-group">
-      <label class="field-label">What does Lok need to know to coach you well?</label>
+      <label class="field-label">What does LKDN need to know to coach you well?</label>
       <div class="radio-grid radio-grid-2">
         <label class="check-option" onclick="toggleCheck(this)"><input type="checkbox" name="coaching_needs" value="accountability"><span class="check-label">Daily accountability + check-ins</span></label>
         <label class="check-option" onclick="toggleCheck(this)"><input type="checkbox" name="coaching_needs" value="programming"><span class="check-label">Programming I don't have to think about</span></label>
@@ -1505,7 +1504,7 @@
     </div>
 
     <div class="field-group" style="margin-bottom:24px">
-      <label class="field-label">Anything else Lok needs to know?</label>
+      <label class="field-label">Anything else LKDN needs to know?</label>
       <textarea name="extra_notes" placeholder="Anything not covered above — personal context, past coaching experience, what hasn't worked before, things you're nervous about." rows="4"></textarea>
     </div>
 
@@ -1513,7 +1512,7 @@
       <label class="field-label">How did you find LKDN?</label>
       <select name="referral_source">
         <option value="">Select</option>
-        <option>Instagram — @lkdn.lok</option>
+        <option>Instagram — @lkdnfitness</option>
         <option>Referred by a friend or client</option>
         <option>Google / search</option>
         <option>HYROX event or community</option>
@@ -1526,7 +1525,7 @@
       <label class="field-label">Program commitment acknowledgement <span class="req">*</span></label>
       <div class="ack-box" id="ack-commit" onclick="toggleAck(this,'ack_commit')">
         <input type="checkbox" name="ack_commit" value="agreed">
-        <div class="ack-text">I understand that results depend on honest data, consistent effort, and open communication with Lok. I commit to completing check-ins, following the program as written, and flagging any issues early rather than pushing through. I acknowledge this program has been designed specifically for me based on the information I've provided, and that withholding relevant information limits what Lok can do for me.</div>
+        <div class="ack-text">I understand that results depend on honest data, consistent effort, and open communication with LKDN. I commit to completing check-ins, following the program as written, and flagging any issues early rather than pushing through. I acknowledge this program has been designed specifically for me based on the information I've provided, and that withholding relevant information limits what LKDN can do for me.</div>
       </div>
     </div>
 
@@ -1534,7 +1533,7 @@
 
     <div style="background: var(--tint); padding: 20px; border-radius: 3px; border-left: 3px solid var(--ink-med); margin-bottom: 24px;">
       <div class="field-subsection" style="margin: 0 0 8px; color: var(--ink-med);">Before you submit</div>
-      <div style="font-size: 13px; color: var(--ink-light); line-height: 1.6;">Review your answers. Lok builds the entire program from this data — there's no intake call. The more specific and honest your answers, the better the program. Once submitted, Lok will be in touch within 48 hours.</div>
+      <div style="font-size: 13px; color: var(--ink-light); line-height: 1.6;">Review your answers. LKDN builds the entire program from this data — there's no intake call. The more specific and honest your answers, the better the program. Once submitted, LKDN will be in touch within 48 hours.</div>
     </div>
   </section>
 
@@ -1548,7 +1547,7 @@
   <div class="success-state" id="success-state">
     <div class="success-icon">✓</div>
     <div class="success-title">Onboarding complete.</div>
-    <div class="success-sub">Lok will review your responses and be in touch within 48 hours. Check your inbox — your confirmation is on its way.</div>
+    <div class="success-sub">LKDN will review your responses and be in touch within 48 hours. Check your inbox — your confirmation is on its way.</div>
   </div>
 
 </div>
@@ -1583,12 +1582,12 @@ const CONFLICT_PAIRS = [
 ];
 
 const CONFLICT_MESSAGES = {
-  'hyrox|hypertrophy':       'Hybrid endurance + aggressive hypertrophy creates strong concurrent training interference. Lok will program the HYROX goal as primary and maintain — not maximise — hypertrophy.',
+  'hyrox|hypertrophy':       'Hybrid endurance + aggressive hypertrophy creates strong concurrent training interference. LKDN will program the HYROX goal as primary and maintain — not maximise — hypertrophy.',
   'marathon|hypertrophy':    'Marathon training and hypertrophy compete for recovery. Marathon prep will be the primary driver; muscle gain will be slowed but protected.',
   'half_marathon|hypertrophy': 'Half-marathon training and hypertrophy compete for recovery. The race goal takes priority; lifting volume will be moderate.',
-  'hypertrophy|recomp':      'Hypertrophy in a caloric deficit is biologically limited. Lok will prioritise muscle retention and steady fat loss rather than maximum hypertrophy.',
+  'hypertrophy|recomp':      'Hypertrophy in a caloric deficit is biologically limited. LKDN will prioritise muscle retention and steady fat loss rather than maximum hypertrophy.',
   'marathon|hyrox':          'Hybrid HYROX → Marathon block is achievable but demanding. Sequencing and primary-goal selection (next section) will determine the macrocycle.',
-  'marathon|10k_5k':         'Marathon + 5K/10K speed work creates conflicting demands — endurance volume vs sharp speed. Lok will weight the program toward whichever you choose as primary.'
+  'marathon|10k_5k':         'Marathon + 5K/10K speed work creates conflicting demands — endurance volume vs sharp speed. LKDN will weight the program toward whichever you choose as primary.'
 };
 
 // ──────────────────────────────────────────────────────────────
